@@ -1,0 +1,86 @@
+.add-edit-delete{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  
+}
+.add-product{
+  align-self: flex-end;
+  width:150px;
+  height: 40px;
+  padding: 15px;
+border-radius: 10px;
+  background-color: black;
+  color: white;
+  border: none;
+  
+}
+.add-product:hover{
+  background-color: #b6bfc6;
+  cursor: pointer;
+  color: black;
+  
+}
+.add-product:focus{
+  outline-color: transparent;
+    outline-style:solid;
+    box-shadow: 0 0 0 4px #5a01a7;
+    transition: 0.7s;
+}
+
+.edit-del-btn{
+  /* width:90px;
+  height: 40px; */
+  padding: 15px;
+border-radius: 10px;
+  background-color: black;
+  color: white;
+  border: none;
+  margin-right: 5px;
+
+}
+
+
+
+
+
+.centered{
+    text-align: center;
+}
+.centered-table th,
+.centered-table td {
+  text-align: center;
+}
+
+#customers {
+    font-family: Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+    background-color: white;
+  }
+  
+  #customers td, #customers th {
+    border: 1px solid #ddd;
+    padding: 8px;
+    
+  }
+  
+  #customers tr:nth-child(even){background-color: #f2f2f2;}
+  
+  #customers tr:hover {background-color: #ddd;}
+  
+  #customers th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color: #0465aa;
+    color: white;
+  }
+
+  @media(max-width:600px){
+    .add-edit-delete{
+      flex-direction: row;
+    }
+  }
